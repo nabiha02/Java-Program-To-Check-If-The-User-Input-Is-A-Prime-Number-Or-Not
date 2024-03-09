@@ -10,6 +10,9 @@ public class PrimeNum{
         int num = input.nextInt();
         int count =0;
 
+        if(num<=1){
+        System.out.println("The number is not a Prime number");
+        }else{
         for(int i=2;i<num;i++) {
 
             if (num % i == 0) {
@@ -17,7 +20,7 @@ public class PrimeNum{
                 break;
             }
         }
-
+        }
         if(count==0){
             System.out.println("The number is a Prime number");
         }else{
