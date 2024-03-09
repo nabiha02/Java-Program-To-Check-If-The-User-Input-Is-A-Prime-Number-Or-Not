@@ -1,0 +1,1 @@
+# Java-Program-To-Check-If-The-User-Input-Is-A-Prime-Number-Or-Not
