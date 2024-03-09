@@ -18,9 +18,9 @@ public class PrimeNum{
             if (num % i == 0) {
                 count++;
                 break;
-            }
-        }
-        }
+         }
+         }
+         }
         if(count==0){
             System.out.println("The number is a Prime number");
         }else{
