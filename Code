@@ -15,3 +15,16 @@ public class lab2_task2{
                 count++;
                 break;
             }
+  }
+        for(int u=3; u<num; u++){
+            if(num%u==0){
+                count++;
+                break;
+            }
+        }
+        for(int k=5; k<num; k++){
+            if(num%k==0){
+                count++;
+                break;
+            }
+        }
