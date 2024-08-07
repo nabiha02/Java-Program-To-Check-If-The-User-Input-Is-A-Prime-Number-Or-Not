@@ -27,4 +27,17 @@ public class lab2_task2{
                 count++;
                 break;
             }
+        }        for(int g=7; g<num; g++){
+            if(num%g==0){
+                count++;
+                break;
+            }
         }
+
+    if(count==0){
+        System.out.println("The number is a prime");
+    }else{
+        System.out.println("The number isn't");
+    }
+    }
+}
